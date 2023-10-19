@@ -12,7 +12,7 @@ const data =
 
 async function invokeEndpoint(): Promise<APIGatewayProxyResult> {
     const params = {
-        EndpointName: 'endpoint-9fbb3b825b31-2023-10-18T18-45-58-847556',
+        EndpointName: 'endpoint-80b8c435d12d-2023-10-19T04-13-15-686175',
         Body: data,
         ContentType: 'text/libsvm',
     };
