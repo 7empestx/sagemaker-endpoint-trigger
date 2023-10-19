@@ -14,7 +14,7 @@ async function invokeEndpoint(): Promise<APIGatewayProxyResult> {
     const params = {
         EndpointName: 'endpoint-9fbb3b825b31-2023-10-18T18-45-58-847556',
         Body: data,
-        ContentType: 'text/libsvm', // Change the content type
+        ContentType: 'text/libsvm',
     };
 
     const command = new InvokeEndpointCommand(params);
